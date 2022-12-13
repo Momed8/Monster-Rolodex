@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  color: #555;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* overflow-x: hidden; */
+}
+
+input {
+  padding: 10px 15px 10px 5px;
+  margin: 12px 0;
+  outline: none;
+  border: 1px solid #000;
+  font-size: 18px;
+  border-radius: 4px;
+  caret-color: rgb(144, 79, 79);
+}
+
+.App > h1 {
+  font-family: "Bigelow Rules";
+  font-size: 72px;
+  color: #0ccac4;
+}
